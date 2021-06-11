@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>Image Convertor for Color Blind People</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <h1>Image Processor</h1>
+            
+        <label for="img">Select Image: </label>
+        <input type="file" id="img-file" accept="image/*">
+        <input type="submit" onclick="send_image()">
+
+        <div id="canvas">
+          <h1>Processed Photo</h1>
+          <img id="processedPhoto">
+        </div>
+        
+        <script src="./js/main.js" async defer></script> 
+    </body>
+</html>

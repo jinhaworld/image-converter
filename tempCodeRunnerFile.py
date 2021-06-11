@@ -1,1 +1,0 @@
-urr_pixel
